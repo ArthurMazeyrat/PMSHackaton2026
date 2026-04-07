@@ -10,7 +10,7 @@ The folder `dataset` contains 14 instance files. Each CSV file is a set of boxes
 ## Solving with Tempo
 
 
-## Solving with Minizinc
-
-
 ## Solving with CPMpy (or other Python toolkits)
+
+
+## Solving with Minizinc
