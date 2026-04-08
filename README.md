@@ -25,9 +25,13 @@ First, fork this git repository, or create a new git repository with a copy of t
 3. push the team and solution files in your repo
 
 >>>
+
 cd hackathon-pms-2026-game-packing
+
 git remote add team.json git@github.com/me/A-team
+
 git remote add solutions git@github.com/me/A-team
+
 >>>
 
 4. Fill the file `team.json` with the relevant information
