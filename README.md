@@ -6,7 +6,7 @@ The folder `dataset` contains 21 instance files. Each CSV file is a set of boxes
 
 You can solve the problem in any way you want, as long as you follow the [solution submission procedure](#submitting-solutions).
 There are helpers scripts for the following toolkits:
-- [Tempo (recommended)](https://gitlab.laas.fr/roc/hackathon-pms-2026-game-packing/-/blob/main/Tempo/README.md?ref_type=heads) 
+- [Tempo](https://gitlab.laas.fr/roc/hackathon-pms-2026-game-packing/-/blob/main/Tempo/README.md?ref_type=heads) 
 - [Python](https://gitlab.laas.fr/roc/hackathon-pms-2026-game-packing/-/blob/main/CPMpy/README.md) 
 - [Minizinc](https://gitlab.laas.fr/roc/hackathon-pms-2026-game-packing/-/blob/main/Minizinc/README.md)
 
@@ -25,18 +25,25 @@ First install the parsing and visualization scripts (requires Python 3.12):
 
 
 ## Setting up your repository
+Here is the procedure to setup your repository to submit solutions. It basically consists of copying this repository content to your new repository you will work on. You have three alternatives for this: GitHub import, GitLab import or manual.
 
-If you have a github account, go to your home, then click NEW, choose "import a repository", then copy/paste https://gitlab.laas.fr/roc/hackathon-pms-2026-game-packing in the text box and import as a public repository (this may take a few minutes).
+### GitHub import
+Sign in and go to your GitHub home, then click *NEW*, choose *Import a repository*, then copy/paste https://gitlab.laas.fr/roc/hackathon-pms-2026-game-packing in the text box and import as a **public** repository (this may take a few minutes).
 
-Here is the procedure to setup your repository to submit solutions. It basically consists of copying this repository content to your new repository you will work on.
+### GitLab import
+Sign in and go to your GitLab home. Click on *Projects* on the left pannel, then on *New project* and select *Import project*. Import from *Repository by URL* and copy/paste https://gitlab.laas.fr/roc/hackathon-pms-2026-game-packing.git in the text box. Finish to fill-in the form but make sure you select **Public** visibility.
+
+### Manual
+The procedure basically copy files from one repository to another. Here are the steps to follow, the commands are underneath.
 1. Create a new empty git repository online. Important requirement: it must be **public**.
 2. Clone this repository.
 3. Enter the repository
 4. Remove the `.git` file.
 5. Initialize a new local git repository.
-6. Stage the current files.
-7. Create the initial commit.
-8. Push it on your repository.
+6. Link your brand new remote repository.
+7. Stage the current files.
+8. Create the initial commit.
+9. Push it on your remote repository.
 ```
 git clone git@gitlab.laas.fr:roc/hackathon-pms-2026-game-packing.git
 cd hackathon-pms-2026-game-packing
@@ -47,8 +54,6 @@ git add .
 git commit -m "Initial commit."
 git push --set-upstream origin main
 ```
-TODO: finish this
-
 
 1. Clone this repo
 
