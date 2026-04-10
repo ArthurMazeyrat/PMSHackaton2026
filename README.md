@@ -14,6 +14,9 @@ The solutions can be visualized using the Python library `blockviz`...
 
 
 ## Setting up your repository
+
+If you have a github account, go to your home, then click NEW, choose "import a repository", then copy/paste https://gitlab.laas.fr/roc/hackathon-pms-2026-game-packing in the text box and import as a public repository (this may take a few minutes).
+
 Here is the procedure to setup your repository to submit solutions. It basically consists of copying this repository content to your new repository you will work on.
 1. Create a new empty git repository online. Important requirement: it must be **public**.
 2. Clone this repository.
