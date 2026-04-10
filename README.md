@@ -14,8 +14,9 @@ The solutions can be visualized using the Python library `blockviz`...
 
 ## scripts  
 
+First install the parsing and visualization scripts (requires Python 3.12):
+
 > pip install git+https://gitlab.laas.fr/roc/titouan-seraud/pms.git
-(require Python 3.12)
 
 
 ## Setting up your repository
