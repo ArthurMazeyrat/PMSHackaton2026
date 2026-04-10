@@ -171,7 +171,7 @@ def main():
     mymodel.create_objective()
     mymodel.solve(path = solution_path, time_limit = 60)   # You can add additional ORTools solver argument (like I've done with time_limit here)
 
-    # If you which to save ORTools solver logs in a file, you can use the following function
+    ## If you wish to save ORTools solver logs in a file, you can use the following arguments
     # mymodel.solve(path = solution_path, ortools_logs = True, ortools_logs_path = "ortools_logs.txt", time_limit = 60)
 
 if __name__ == "__main__":
