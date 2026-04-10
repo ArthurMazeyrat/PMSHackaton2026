@@ -14,9 +14,7 @@ The solutions can be visualized using the Python library `blockviz`...
 
 ## scripts  
 
-> git clone https://gitlab.laas.fr/roc/titouan-seraud/pms.git
-
-> pip install pms
+> pip install git+https://gitlab.laas.fr/roc/titouan-seraud/pms.git
 
 
 ## Setting up your repository
